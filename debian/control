@@ -1,0 +1,31 @@
+Source: node-path-is-inside
+Section: web
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Olive Sara Thomas <olive@disroot.org>
+Build-Depends:
+ debhelper (>= 9)
+ , dh-buildinfo
+ , nodejs
+ , mocha
+Standards-Version: 4.0.0
+Homepage: https://github.com/domenic/path-is-inside#readme
+Vcs-Git: https://anonscm.debian.org/git/pkg-javascript/node-path-is-inside.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-javascript/node-path-is-inside.git
+
+Package: node-path-is-inside
+Architecture: all
+Depends:
+ ${misc:Depends}
+ , nodejs
+Description: Tests whether one path is inside another path
+ The **path-is-inside** package will give you a robust, cross-platform
+ way of detecting whether a given path is inside another path.
+ .  
+ Like Node's built-in path module, path-is-inside treats all file paths on 
+ Windows as case-insensitive, whereas it treats all file paths on
+ *-nix operating systems as case-sensitive. Keep this in mind especially
+ when working on a Mac, where, despite Node's defaults, the OS usually treats
+ paths case-insensitively.
+ .
+ Node.js is an event-based server-side JavaScript engine.
