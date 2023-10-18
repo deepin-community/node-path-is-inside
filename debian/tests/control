@@ -1,5 +1,0 @@
-Tests: require
-Depends: node-path-is-inside
-
-Test-Command: mocha -R spec
-Depends: @,mocha
