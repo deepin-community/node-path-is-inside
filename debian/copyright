@@ -1,7 +1,8 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: path-is-inside
 Upstream-Contact: https://github.com/domenic/path-is-inside/issues
 Source: https://github.com/domenic/path-is-inside#readme
+ https://registry.npmjs.org/@types/path-is-inside
 
 Files: *
 Copyright: 2013–2016 Domenic Denicola <d@domenic.me> (https://domenic.me)
@@ -11,6 +12,10 @@ License: WTFPL OR Expat
 Files: debian/*
 Copyright: 2017 Olive Sara Thomas <olive@disroot.org>
 License: WTFPL OR Expat
+
+Files: types-*/*
+Copyright: Microsoft Corporation
+License: Expat
 
 License: Expat
  Permission is hereby granted, free of charge, to any person obtaining a copy
